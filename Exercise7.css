@@ -1,0 +1,55 @@
+#header{
+	width:90%;
+	background-image:url('fl2.jpg');
+	height:430px;
+	background-size:cover;
+	display:flex;
+	justify-content:top-right;
+	align-items:top-right;
+	margin:auto;
+	border-radius:15px;
+	margin-top:0;
+
+}
+#nav{
+	display:flex;
+	padding-top:1px;
+	padding-bottom:1px;
+	margin-top:5px;
+	margin:auto;
+	width:90%;
+	
+	
+}
+#nav span{
+	width:20%;
+	cursor:pointer; 
+	background-color:#DBDBDB;
+	border: 1px solid #DBDBDB;
+}
+#nav a{
+	text-decoration:none;
+	font-family:Arial, sans-sarif;
+	color:black;
+	font-size:26px;
+	padding-top:10px;
+	padding-bottom:10px;
+	display:block;
+	font-weight:5px;
+}
+#nav a:hover{
+	color:red;
+	font-size:27px;
+	margin-top:-2px;
+	margin-bottom:-2px;
+	}
+	
+marquee{
+	align-content:center;
+	width:90%;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:3px solid black;
+	border-radius:15px;
+}
+	
