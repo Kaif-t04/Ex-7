@@ -7,18 +7,30 @@
 	margin:auto;
 	border-radius:15px;
 	margin-top:0;
-
 }
+
+#header a{
+	text-decoration:none;
+	font-family:Arial, sans-sarif;
+	color:black;
+	display:block;
+	font-weight:1000;
+}
+
+#header a:hover{
+	color:white;
+	
+}
+
 #nav{
 	display:flex;
 	padding-top:1px;
 	padding-bottom:1px;
 	margin-top:5px;
 	margin:auto;
-	width:90%;
-	
-	
+	width:90%;	
 }
+
 #nav span{
 	width:20%;
 	cursor:pointer; 
@@ -51,3 +63,4 @@ marquee{
 	border-radius:15px;
 }
 	
+ 
