@@ -1,41 +1,24 @@
-#header{
-	width:90%;
-	background-image:url('fl2.jpg');
-	height:430px;
-	background-size:cover;
-	display:flex;
-	margin:auto;
-	border-radius:15px;
-	margin-top:0;
-}
-#header a{
-	text-decoration:none;
-	font-family:Arial, sans-sarif;
-	color:black;
-	display:block;
-	font-weight:1000;
-}
-#header a:hover{
-	color:white;	
-}
 #nav{
 	display:flex;
 	padding-top:1px;
 	padding-bottom:1px;
-	margin-top:5px;
-	margin:auto;
-	width:90%;	
+	height:60px;
+	width:100%;	
+	position:sticky;
+	left:0;
+	right:0;
+	background-color:black;
 }
 #nav span{
 	width:20%;
 	cursor:pointer; 
-	background-color:#DBDBDB;
-	border: 1px solid #DBDBDB;
+	background-color:black;
+	border: 1px solid;
 }
 #nav a{
 	text-decoration:none;
 	font-family:Arial, sans-sarif;
-	color:black;
+	color:white;
 	font-size:26px;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -48,15 +31,30 @@
 	margin-top:-2px;
 	margin-bottom:-2px;
 	}	
-marquee{
-	align-content:center;
-	width:90%;
-	padding-top:10px;
-	padding-bottom:10px;
-	border:3px solid black;
-	border-radius:15px;
-}
 	
+#header{
+	width:90%;
+	background-image:url('fl2.jpg');
+	height:430px;
+	background-size:cover;
+	display:flex;
+	margin:auto;
+	border-radius:15px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#header a{
+	text-decoration:none;
+	font-family:Arial, sans-sarif;
+	color:white;
+	display:block;
+	font-weight:1000;
+}
+#header a:hover{
+	color:black;	
+}
+
+ 
 #sa p{
 	background-color:black;
 	border-radius:15px;
@@ -68,6 +66,31 @@ marquee{
 	width:90%;
 	align-content:center;
 	font-weight:700;
-	margin-top:5px;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-bottom:5px;
 	
 } 
+
+
+
+
+
+
+
+
+!-----------------------------------------------------------------------------IMAGES-------------------------------------------------------------------------!
+#images{
+width:100%;
+overflow:auto;
+padding-top:1px;
+padding-bottom:1px;
+ 
+}
+
+#images div{
+width:33%;
+cursor:pointer; 
+float:left;
+margin-left:1px;
+	}
