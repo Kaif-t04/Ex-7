@@ -84,8 +84,7 @@ width:1000px;
 display:flex;
 justify-content:center;
 gap:10px;
-padding-top:5px;
-padding-bottom:5px;
+margin-top:5px;
 }
 
 #images div{
